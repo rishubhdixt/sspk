@@ -40,7 +40,7 @@ function Nav() {
           <Link to="/" onClick={closeMenu} className="block">Home</Link>
           <Link to="/Skill" onClick={closeMenu} className="block">Skill Development</Link>
           <Link to="/courses" onClick={closeMenu} className="block">Courses</Link>
-          <Link to="/about" onClick={closeMenu} className="block">About Us</Link>
+          <Link to="/AboutUs" onClick={closeMenu} className="block">About Us</Link>
           <Link to="/contact" onClick={closeMenu} className="block">Contact</Link>
         </div>
       )}
