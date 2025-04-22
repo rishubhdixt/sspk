@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
+import logo from "../assets/logo.png"
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +15,8 @@ function Nav() {
 
           {/* Logo */}
           <Link to="/">
-  <img src="/assets/logo.png" alt="SSPK Logo" className="h-10" />
+  <img src={logo} alt="SSPK Logo" className="h-16 w-auto" />
+  
 </Link>
 
           {/* Desktop Menu */}
