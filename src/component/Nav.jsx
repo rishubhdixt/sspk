@@ -13,8 +13,9 @@ function Nav() {
         <div className="flex justify-between items-center h-16">
 
           {/* Logo */}
-          <div className="text-xl font-bold text-blue-700">Saraswati Shiksan Evam Prashiksan Kendra
-          </div>
+          <Link to="/">
+  <img src="/assets/logo.png" alt="SSPK Logo" className="h-10" />
+</Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 text-gray-700 font-medium">
